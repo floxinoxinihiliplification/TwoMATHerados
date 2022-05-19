@@ -8,9 +8,19 @@ public class PlayerMovement : MonoBehaviour
 
     private float vertical;
 
+    [SerializeField] Weapon weapon;
+
     private void Update()
     {
         GetInput();
+
+        if(Input.GetMouseButton(0))
+        {
+            if(weapon != null)
+            {
+                weapon.Shoot();
+            }
+        }
     }
 
     void FixedUpdate()
