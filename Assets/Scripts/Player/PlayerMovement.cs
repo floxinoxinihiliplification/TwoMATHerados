@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
             if(weapon != null)
             {
                 weapon.Shoot();
+                Debug.Log("Shot Fired");
             }
         }
     }

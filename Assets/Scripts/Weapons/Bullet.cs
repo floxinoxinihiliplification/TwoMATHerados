@@ -19,6 +19,7 @@ public class Bullet : MonoBehaviour
     {
         if(other != null)
         {
+            Debug.Log("col: " + other.collider.name);
             Destroy(gameObject);
         }   
     }

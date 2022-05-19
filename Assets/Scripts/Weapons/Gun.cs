@@ -11,6 +11,7 @@ public class Gun : Weapon
     {
         if(Time.time - lastTimeShoot > rateOfFire)
         {
+            Debug.Log("Bullet created");
             Bullet tmpBullet = Instantiate(bullet, tipOfTheWeapon.position, tipOfTheWeapon.rotation);
             tmpBullet.Setup(damage);
             lastTimeShoot = Time.time;
