@@ -5698,6 +5698,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3186831311532979128, guid: f516bc70ea7fb8947bde0e778aeee837, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3186831311532979130, guid: f516bc70ea7fb8947bde0e778aeee837, type: 3}
       propertyPath: m_Name
       value: MovableRoadAndSidewalk_3
@@ -32926,6 +32930,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4190763200394263117, guid: 18174119d1ad2c84fa9d025575a9679a, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4190763200394263119, guid: 18174119d1ad2c84fa9d025575a9679a, type: 3}
       propertyPath: m_Name
       value: MovableRoadAndSidewalk_1
@@ -49604,6 +49612,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1562517856627083136, guid: 3a9bfafc2ee271648991915e5f98dbb2, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1562517856627083137, guid: 3a9bfafc2ee271648991915e5f98dbb2, type: 3}
       propertyPath: m_RootOrder
       value: 5

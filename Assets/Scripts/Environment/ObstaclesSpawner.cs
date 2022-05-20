@@ -43,7 +43,7 @@ public class ObstaclesSpawner : MonoBehaviour
             Vector3 spawnPosition = spawnPoints[index].position;
             int obstaclesIndex = randomIndex.Next(0, obstacles.Count);
             GameObject enemyPrefab = obstacles[index];
-            GameObject instantiatedEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            GameObject instantiatedEnemy = Instantiate(enemyPrefab, spawnPosition, enemyPrefab.transform.rotation);
 
             intantiatedEnemies.Add(instantiatedEnemy);
             enemyCount++;
