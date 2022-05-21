@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2588396529963895287}
   - component: {fileID: 2588396529963895286}
   - component: {fileID: 32403991776270212}
-  m_Layer: 0
+  - component: {fileID: 1597367661149582034}
+  m_Layer: 6
   m_Name: CAR GREEN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,6 +67,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1597367661149582034
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588396529963895284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0221033, y: 0.64143336, z: 4.481499}
+  m_Center: {x: -0.0048824023, y: 0.4823981, z: 0.0026188788}
 --- !u!1 &2588396530135763190
 GameObject:
   m_ObjectHideFlags: 0
@@ -77,7 +91,7 @@ GameObject:
   - component: {fileID: 2588396530135763145}
   - component: {fileID: 2588396530135763147}
   - component: {fileID: 2588396530135763144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CAR_TYPE_1_GREEN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +178,7 @@ GameObject:
   - component: {fileID: 2588396530181851713}
   - component: {fileID: 2588396530181851715}
   - component: {fileID: 2588396530181851712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CAR_TYPE_1_GREEN_WHEEL_BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +260,7 @@ GameObject:
   - component: {fileID: 2588396530651069358}
   - component: {fileID: 2588396530651069344}
   - component: {fileID: 2588396530651069345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CAR_TYPE_1_GREEN_WHEEL_BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +342,7 @@ GameObject:
   - component: {fileID: 2588396531073650193}
   - component: {fileID: 2588396531073650195}
   - component: {fileID: 2588396531073650192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CAR_TYPE_1_GREEN_WHEEL_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +424,7 @@ GameObject:
   - component: {fileID: 2588396531140361053}
   - component: {fileID: 2588396531140361055}
   - component: {fileID: 2588396531140361052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CAR_TYPE_1_GREEN_WHEEL_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}

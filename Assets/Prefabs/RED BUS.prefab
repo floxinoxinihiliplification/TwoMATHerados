@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4087747622325547758}
   - component: {fileID: 4087747622325547753}
   - component: {fileID: 1037621219767151417}
-  m_Layer: 0
+  - component: {fileID: 2184063671677413758}
+  m_Layer: 6
   m_Name: RED BUS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,6 +69,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2184063671677413758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087747622325547759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.452549, y: 2.5493891, z: 10.425034}
+  m_Center: {x: 0.055602875, y: 1.9810505, z: -0.13270311}
 --- !u!1 &4087747622844025548
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,7 +93,7 @@ GameObject:
   - component: {fileID: 4087747622844025551}
   - component: {fileID: 4087747622844025545}
   - component: {fileID: 4087747622844025550}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Wheel_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +175,7 @@ GameObject:
   - component: {fileID: 4087747623021445320}
   - component: {fileID: 4087747623021445322}
   - component: {fileID: 4087747623021445323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Wheel_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +257,7 @@ GameObject:
   - component: {fileID: 4087747623330970445}
   - component: {fileID: 4087747623330970447}
   - component: {fileID: 4087747623330970444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Wheel_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +339,7 @@ GameObject:
   - component: {fileID: 4087747623342285659}
   - component: {fileID: 4087747623342285653}
   - component: {fileID: 4087747623342285658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Wheel_BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +421,7 @@ GameObject:
   - component: {fileID: 4087747623371334809}
   - component: {fileID: 4087747623371334811}
   - component: {fileID: 4087747623371334808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Wheel_BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +503,7 @@ GameObject:
   - component: {fileID: 4087747623429241487}
   - component: {fileID: 4087747623429241481}
   - component: {fileID: 4087747623429241486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Wheel_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +585,7 @@ GameObject:
   - component: {fileID: 4087747624175260190}
   - component: {fileID: 4087747624175260184}
   - component: {fileID: 4087747624175260185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: City_Bus_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

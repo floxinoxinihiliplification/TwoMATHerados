@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2611848924073285922}
   - component: {fileID: 2611848924073285932}
   - component: {fileID: 2611848924073285923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HIACE_WHEEL_FR002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,8 @@ GameObject:
   - component: {fileID: 2611848924204751540}
   - component: {fileID: 2611848924204751541}
   - component: {fileID: 1220487045895109177}
-  m_Layer: 0
+  - component: {fileID: 7057828821474635185}
+  m_Layer: 6
   m_Name: HI-ACE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,6 +149,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7057828821474635185
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2611848924204751563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0372105, y: 2.2752607, z: 6.088596}
+  m_Center: {x: -0.3067891, y: 1.7689711, z: -0.00939995}
 --- !u!1 &2611848924567540269
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +173,7 @@ GameObject:
   - component: {fileID: 2611848924567540270}
   - component: {fileID: 2611848924567540264}
   - component: {fileID: 2611848924567540271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HIACE_WHEEL_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +255,7 @@ GameObject:
   - component: {fileID: 2611848925137728258}
   - component: {fileID: 2611848925137728268}
   - component: {fileID: 2611848925137728259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HIACE_WHEEL_FR003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +337,7 @@ GameObject:
   - component: {fileID: 2611848925566127966}
   - component: {fileID: 2611848925566127960}
   - component: {fileID: 2611848925566127967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HIACE_WHEEL_FR001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +419,7 @@ GameObject:
   - component: {fileID: 2611848925660366888}
   - component: {fileID: 2611848925660366890}
   - component: {fileID: 2611848925660366889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TOYOTA HIACE
   m_TagString: Untagged
   m_Icon: {fileID: 0}

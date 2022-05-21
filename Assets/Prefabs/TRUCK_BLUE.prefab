@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8582993240267353157}
   - component: {fileID: 8582993240267353159}
   - component: {fileID: 8582993240267353156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_BLUE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,8 @@ GameObject:
   - component: {fileID: 8582993240441007390}
   - component: {fileID: 8582993240441007385}
   - component: {fileID: 7305542335959485615}
-  m_Layer: 0
+  - component: {fileID: 995590794919456154}
+  m_Layer: 6
   m_Name: TRUCK_BLUE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,6 +158,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &995590794919456154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8582993240441007391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.954315, y: 1.9461721, z: 6.2472363}
+  m_Center: {x: 0.013304098, y: 1.4613905, z: 0.23424222}
 --- !u!1 &8582993241221990160
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +182,7 @@ GameObject:
   - component: {fileID: 8582993241221990163}
   - component: {fileID: 8582993241221990173}
   - component: {fileID: 8582993241221990162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_WHEEL_BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +264,7 @@ GameObject:
   - component: {fileID: 8582993241390949475}
   - component: {fileID: 8582993241390949485}
   - component: {fileID: 8582993241390949474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_WHEEL_BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +346,7 @@ GameObject:
   - component: {fileID: 8582993241392587972}
   - component: {fileID: 8582993241392587974}
   - component: {fileID: 8582993241392587975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_WHEEL_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +428,7 @@ GameObject:
   - component: {fileID: 8582993241564694087}
   - component: {fileID: 8582993241564694081}
   - component: {fileID: 8582993241564694086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_ DOOR_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,7 +510,7 @@ GameObject:
   - component: {fileID: 8582993241573190857}
   - component: {fileID: 8582993241573190859}
   - component: {fileID: 8582993241573190856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_WHEEL_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +592,7 @@ GameObject:
   - component: {fileID: 8582993241709041162}
   - component: {fileID: 8582993241709041172}
   - component: {fileID: 8582993241709041173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TRUCK_ DOOR_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
