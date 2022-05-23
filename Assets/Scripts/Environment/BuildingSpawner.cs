@@ -32,10 +32,10 @@ public class BuildingSpawner : MonoBehaviour
 
             int index = randomIndex.Next(0, buildings.Count);
             GameObject buildingPrefab = buildings[index];
-            GameObject instantiatedEnemy = Instantiate(buildingPrefab, spawnPosition.position, buildingPrefab.transform.rotation);
+            GameObject instantiatedEnemy = Instantiate(buildingPrefab, spawnPosition.position, Quaternion.identity);//, buildingPrefab.transform.rotation);
 
-            intantiatedEnemies.Add(instantiatedEnemy);
-            enemyCount++;
+            //intantiatedEnemies.Add(instantiatedEnemy);
+            //enemyCount++;
 
             if(enemyCount >= maxEnemyCount)
             {
