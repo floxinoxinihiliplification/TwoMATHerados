@@ -3560,8 +3560,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 233018447}
+<<<<<<< HEAD
   m_RootOrder: 46
+=======
   m_RootOrder: 43
+>>>>>>> Razvoj2
   m_LocalEulerAnglesHint: {x: 0, y: 359.999, z: 0}
 --- !u!4 &127676114 stripped
 Transform:
@@ -4041,7 +4044,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 233018447}
+<<<<<<< HEAD
+  m_RootOrder: 47
+=======
   m_RootOrder: 45
+>>>>>>> Razvoj2
   m_LocalEulerAnglesHint: {x: 0, y: 359.999, z: 0}
 --- !u!1001 &139003097
 PrefabInstance:
@@ -7225,6 +7232,15 @@ Transform:
   - {fileID: 870800737}
   - {fileID: 760574121}
   - {fileID: 1199155112}
+<<<<<<< HEAD
+  - {fileID: 1325296221}
+  - {fileID: 1577801099}
+  - {fileID: 1480429188}
+  - {fileID: 357334902}
+  - {fileID: 50705089}
+  - {fileID: 127051643}
+  - {fileID: 137637911}
+=======
   - {fileID: 357334902}
   - {fileID: 1325296221}
   - {fileID: 127051643}
@@ -7233,6 +7249,7 @@ Transform:
   - {fileID: 1480429188}
   - {fileID: 1524872600}
   - {fileID: 50705089}
+>>>>>>> Razvoj2
   - {fileID: 1594873891}
   - {fileID: 1176620150}
   - {fileID: 860713792}
@@ -7858,6 +7875,14 @@ Transform:
   - {fileID: 1600491234}
   - {fileID: 557097063}
   - {fileID: 436686928}
+<<<<<<< HEAD
+  - {fileID: 1731478565}
+  - {fileID: 1853402096}
+  - {fileID: 1083695632}
+  - {fileID: 1340944943}
+  - {fileID: 886562737}
+  - {fileID: 2104498428}
+=======
   - {fileID: 1817071844}
   - {fileID: 1466319032}
   - {fileID: 1008984366}
@@ -7867,6 +7892,7 @@ Transform:
   - {fileID: 381464714}
   - {fileID: 1064245364}
   - {fileID: 1013041264}
+>>>>>>> Razvoj2
   m_Father: {fileID: 0}
   m_RootOrder: 593
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12182,7 +12208,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 233018447}
+<<<<<<< HEAD
+  m_RootOrder: 44
+=======
   m_RootOrder: 41
+>>>>>>> Razvoj2
   m_LocalEulerAnglesHint: {x: 0, y: 359.999, z: 0}
 --- !u!4 &357460230 stripped
 Transform:
@@ -51131,7 +51161,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 233018447}
+<<<<<<< HEAD
+  m_RootOrder: 311
+=======
   m_RootOrder: 47
+>>>>>>> Razvoj2
   m_LocalEulerAnglesHint: {x: 0, y: 269.999, z: 0}
 --- !u!4 &1525070344 stripped
 Transform:
