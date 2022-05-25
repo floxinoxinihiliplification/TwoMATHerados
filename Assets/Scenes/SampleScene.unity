@@ -7878,11 +7878,9 @@ Transform:
   - {fileID: 1815500922}
   - {fileID: 1580498706}
   - {fileID: 1844721730}
-  - {fileID: 153579873}
   - {fileID: 573701801}
   - {fileID: 1581371379}
   - {fileID: 870404949}
-  - {fileID: 1801084868}
   - {fileID: 1306937062}
   - {fileID: 740729567}
   - {fileID: 1675385264}
@@ -7895,6 +7893,7 @@ Transform:
   - {fileID: 100127354}
   - {fileID: 1445036033}
   - {fileID: 869815966}
+  - {fileID: 1801084868}
   - {fileID: 1972545818}
   - {fileID: 250952072}
   - {fileID: 1327428921}
@@ -7907,6 +7906,7 @@ Transform:
   - {fileID: 1582459379}
   - {fileID: 1419976962}
   - {fileID: 1121859349}
+  - {fileID: 153579873}
   - {fileID: 533079680}
   - {fileID: 435339967}
   - {fileID: 201370998}
@@ -72480,7 +72480,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: FreeZombie
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3248863801702736570, guid: 9a9fe7f8b98803643a4392e188544b18, type: 3}
+      propertyPath: m_TagString
+      value: Zombiee
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8442592115664210682, guid: 9a9fe7f8b98803643a4392e188544b18, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9a9fe7f8b98803643a4392e188544b18, type: 3}
 --- !u!1001 &3490478797819105415
 PrefabInstance:
