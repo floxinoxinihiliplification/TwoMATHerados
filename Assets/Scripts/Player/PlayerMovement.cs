@@ -38,6 +38,9 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 changeInPosition = new Vector3(0f, 0f, vertical);
         Vector3 goToPositon = transform.position + changeInPosition * speed * Time.deltaTime;
-        GetComponent<Rigidbody>().MovePosition(goToPositon);
+        if(goToPositon.z >= 4.5f && goToPositon.z <= 15)
+        {
+            GetComponent<Rigidbody>().MovePosition(goToPositon);
+        }
     }
 }

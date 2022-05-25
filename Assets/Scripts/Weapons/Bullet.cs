@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
 
     public void Setup(int damage)
     {
-        this.damage = damage;
+        this.damage = damage; 
         GetComponent<Rigidbody>().velocity = transform.forward * speed;
     }
     

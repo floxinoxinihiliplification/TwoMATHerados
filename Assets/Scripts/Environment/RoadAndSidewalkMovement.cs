@@ -12,22 +12,12 @@ public class RoadAndSidewalkMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Debug.Log("Update");
-        
         Move();
-        //transform.position = new Vector3(5000,500,2000) ;
     }
-
-    //void FixedUpdate()
-    //{
-        //Debug.Log("FixedUpdate");
-        //Move();
-    //}
 
     private void Start()
     {
-        Debug.Log("Start");
-        //transform.position = new Vector3(5000,500,2000) ;
+        //Debug.Log("Start");
     }
 
     private void Move()
@@ -40,14 +30,11 @@ public class RoadAndSidewalkMovement : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //For the love of god rewrite this part please!!!!
-        if (other.tag == "LeftBorder" && istriggered == false)//other.gameObject.name == "LeftBorder")
+        if (other.tag == "LeftBorder" && istriggered == false)
         {
-            Debug.Log("Colision" + transform.localPosition.x);
-
-
             istriggered = true;
             float goToPositonOnX = -1f * speed * Time.deltaTime;
-            Vector3 changeInPosition = new Vector3(transform.localPosition.x + 72f + goToPositonOnX, transform.localPosition.y, transform.localPosition.z);
+            Vector3 changeInPosition = new Vector3(transform.localPosition.x + 96f + goToPositonOnX, transform.localPosition.y, transform.localPosition.z);
             transform.localPosition = changeInPosition;
         }
      

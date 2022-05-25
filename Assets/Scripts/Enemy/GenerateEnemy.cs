@@ -15,7 +15,7 @@ public class GenerateEnemy : MonoBehaviour
     }
 
     IEnumerator enemyDrop() {
-        while(enemyCount < 5)
+        /*while(enemyCount < 5)
         {
             xPos = Random.Range(-251, -233);
             zPos = Random.Range(5, 13);
@@ -25,7 +25,9 @@ public class GenerateEnemy : MonoBehaviour
             yield return new WaitForSeconds(2f);
 
             enemyCount++;
-        }
+        }*/
+
+        yield return new WaitForSeconds(2f);
     }
 
 }
