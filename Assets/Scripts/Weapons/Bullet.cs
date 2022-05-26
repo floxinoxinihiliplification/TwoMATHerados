@@ -14,23 +14,19 @@ public class Bullet : MonoBehaviour
     }
     
     private void OnTriggerEnter(Collider other)
-{
-    if (other.CompareTag("Zombiee"))  
     {
-        // Destroy the thing tagged enemy, not youself
-        Destroy(other.gameObject);
+        if (other.CompareTag("Zombiee"))  
+        {
+            // Destroy the thing tagged enemy, not youself
+            Destroy(other.gameObject);
 
-        // Could still destroy the bullet itself as well
-        Destroy (gameObject);
-    }
-}
+            // Could still destroy the bullet itself as well
+            Destroy (gameObject);
+        }
 
-    private void OnCollisionEnter(Collision other) 
-    {
         if(other != null)
         {
             Destroy(gameObject);
-        }   
+        } 
     }
-
 }
