@@ -8,6 +8,7 @@ TagManager:
   - MovableBuidling
   - buildingCollider
   - Zombiee
+  - Obstacle
   layers:
   - Default
   - TransparentFX

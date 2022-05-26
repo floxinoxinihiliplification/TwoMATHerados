@@ -10,7 +10,7 @@ public class PlayerContactScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy") || other.tag == "Zombiee")
         {
             DestroyObject(this.gameObject);
             LoadEndScene();
