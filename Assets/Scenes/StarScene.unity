@@ -609,8 +609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 384}
-  m_SizeDelta: {x: 504.7986, y: 102.487}
+  m_AnchoredPosition: {x: 38.0119, y: 385.33667}
+  m_SizeDelta: {x: 580.8224, y: 99.8137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1234160453
 MonoBehaviour:
@@ -645,7 +645,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: IME IGRE
+  m_Text: Zombie Crush
 --- !u!222 &1234160454
 CanvasRenderer:
   m_ObjectHideFlags: 0

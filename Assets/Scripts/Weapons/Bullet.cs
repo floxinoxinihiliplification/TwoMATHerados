@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private float speed;
     public int damage;
+    private bool pointsAdded = false;
 
     public void Setup(int damage)
     {
@@ -22,6 +23,11 @@ public class Bullet : MonoBehaviour
 
             // Could still destroy the bullet itself as well
             Destroy (gameObject);
+            if(!pointsAdded)
+            {
+                ScoreManager.instance.AddPoints(5);
+                pointsAdded = true;
+            }
         }
 
         if(other != null)
